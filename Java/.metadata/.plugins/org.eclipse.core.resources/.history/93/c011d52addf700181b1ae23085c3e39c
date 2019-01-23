@@ -1,0 +1,12 @@
+
+class FreshJuiceTest {
+	enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
+	FreshJuiceSize size;
+}
+
+public class FreshJuiceTest {
+	public static void main(String []args) {
+		FreshJuiceTest juice = new Freshjuice();
+		juice.size = FreshJuiceTest.FreshJuiceSize.MEDIUM;
+	}
+}
